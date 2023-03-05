@@ -1,0 +1,18 @@
+{
+  "name": "app_perguntas_e_respostas",
+  "version": "1.0.0",
+  "description": "site de perguntas e repostas",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alisson Olibre",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mariadb": "^3.1.0",
+    "sequelize": "^6.28.0"
+  }
+}

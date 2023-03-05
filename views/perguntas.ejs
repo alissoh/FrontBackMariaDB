@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="bloco-nav">
+            <div>Logo</div>
+            <ul class="oneitem">
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">Perguntas</a></li>
+                <li class="item"><a href="#">Respostas</a></li>
+            </ul>
+        </nav>
+    <div id="conteiner">
+        
+        <form style="flex-grow: 8" class="bloco-formulario" action="/perguntas" method="post">
+            <div>
+                <label for="name">Titulo da Pergunta:</label><br><!-- 'label' this attribute references the id of the field -->
+                <input name="titulo" id="name" type="text">                                       
+            </div>
+            <div>
+                <label for="text">Descrição:</label><br><!-- 'label' this attribute references the id of the field -->
+                <textarea name="pergunta" class="textaria" cols="30" rows="1"></textarea>                                         
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <footer class="bloco-footer">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
