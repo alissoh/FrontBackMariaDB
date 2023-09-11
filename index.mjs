@@ -1,4 +1,3 @@
-//importações feitas para esse programa
 import express from "express";
 const app = express()
 import conection from './databases/database.mjs'
@@ -14,7 +13,7 @@ conection
         console.log(msgErro)
     })
     
-// setando a view engine que sera usada no projeto. o que irei usar para deseinhar o html
+
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
